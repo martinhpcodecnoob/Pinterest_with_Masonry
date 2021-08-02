@@ -1,0 +1,108 @@
+
+.grid-container{
+    /* display: grid;
+    grid-template-columns:repeat(auto-fill, 230px); */
+    margin: 0 auto;
+}
+.grid-item{
+    width: 230px;
+    margin-bottom: 40px;
+    border-radius: 15px;
+    cursor: zoom-in;
+    background-color: lightgoldenrodyellow;
+}
+.grid-item:hover{
+    filter: opacity(0.8);
+}
+.search-pint div li a{
+    text-decoration: none;
+    color: rgb(131, 131, 131);
+}
+.search-pint div li{
+    padding: 10px;
+}
+#galery{
+    margin-top: 100px;
+}
+#PintNav{
+    background-color:rgb(255, 255, 255);
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+    /* max-width: 1000px; */
+}
+.search-pint{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    list-style: none;
+}
+.search-1 {
+    display: flex;
+    flex-grow: 1;
+}
+.list-1{
+    margin: 0 2% 0 10%;
+}
+.list-1:hover, .list-4:hover, .list-5:hover, .list-6:hover, .list-7:hover{
+    border-radius: 90px;
+    background-color: rgb(240, 240, 240);
+}
+.list-1:active, .list-4:active, .list-5:active, .list-6:active, .list-7:active{
+    border-radius: 90px;
+    background-color: rgb(0, 0, 0);
+}
+.list-2:hover, .list-3:hover{
+    border-radius: 20px;
+    background-color: rgb(240, 240, 240);
+}
+.list-2:active, .list-3:active{
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.list-7{
+    margin: 0 10% 0 2%;
+}
+.search-2 {
+    display: flex;
+    flex-grow: 20;
+}
+.search-3{
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end
+}
+.fa-pinterest{
+    font-size: 30px;
+    color: rgb(184, 39, 20);
+}
+.fa-search{
+    color: rgb(131, 131, 131);
+    margin-left: 10px;
+}
+.fa-bell, .fa-comment-dots, .fa-angle-down{
+    font-size: 30px;
+    color: rgb(131, 131, 131);
+}
+.input-style{
+    border: none;
+    outline: none;
+    background: none;
+    width: 90%;
+}
+/* .input-style:focus{
+    border: none;
+} */
+.form-1{
+    border: 1px solid rgb(240, 240, 240);
+    background-color: rgb(240, 240, 240);
+    border-radius: 30px;
+    padding: 10px;
+    flex-grow: 1;
+}
+.form-1:hover{
+    background-color: rgb(219, 219, 219);
+}
