@@ -8,4 +8,4 @@ Maquetacion de Pinterist las imagenes son random cambiaran en cada actualizacion
 
 <hr>
 
-![img](/Pinterest_with_Masonry/IMG/Pinterest.PNG)
+![img](/Pinterest_with_Masonry/IMG/Pinterest.png)
